@@ -5,6 +5,7 @@ const App = {
     };
   },
 };
+console.log(app);
 
 const app = Vue.createApp(App);
 
