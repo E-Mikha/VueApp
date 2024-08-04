@@ -1,4 +1,4 @@
-const App = {
+const MyApp = {
   data() {
     return {
       counter: 5,
@@ -7,6 +7,6 @@ const App = {
 };
 console.log(app);
 
-const app = Vue.createApp(App);
+const app = Vue.createApp(MyApp);
 
 app.mount('#app');
