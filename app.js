@@ -8,4 +8,5 @@ const App = {
 
 const app = Vue.createApp(App);
 
+console.log('App');
 app.mount('#app');
